@@ -1,0 +1,867 @@
+/*==================================================
+                   Media Queries        
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    .navbar-dark .navbar-nav .nav-link {
+
+        font-size: 1.4375rem;
+    }
+
+    /*Slogan & Images*/
+    .slogan {
+        height: 600px;
+    }
+
+    p {
+        font-size: 3.125rem;
+        padding-top: 80px;
+        
+    }
+
+    .gieten {
+        top: 215px;
+        right: 170px;
+
+    }
+
+    .glazen {
+        top: 245px;
+        right: 100px;
+    }
+
+    div.glasinhand {
+        top: 245px;
+        right: 295px;
+    }
+
+    /*Main*/
+
+    .main {
+
+        height: auto;
+    }
+
+    .typo-sub {
+        font-size: 0.9375rem;
+    }
+
+    .typo-tekst {
+        font-size: 2.1875rem;
+    }
+
+    .video-sub {
+        font-size: 0.9375rem;
+    }
+
+    .video-tekst {
+        font-size: 2.1875rem;
+    }
+
+    .animate1 {
+        left: 350px;
+    }
+
+
+
+    /*Carousel*/
+
+    .carousel-inner {
+        left: 190px;
+    }
+
+    .carousel-control-prev {
+        left: 170px;
+
+    }
+
+    .carousel-control-next {
+        right: 220px;
+    }
+
+}
+
+/* =========================================
+Small Devices (Portrait Tablets & Small Desktops)
+============================================ */
+
+@media (max-width: 991px) {
+
+    /*Navbar*/
+
+    .navbar-dark .navbar-brand {
+        width: 245px;
+        height: 129.06px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+    padding:5px ;
+    }
+
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .navbar-collapse{
+        margin-right: 20px !important;
+    }
+
+    /*Slogan & Images*/
+    .slogan {
+        height: 550px;
+    }
+
+    p {
+        font-size: 3.125rem;
+        margin-top: 30px;
+        position: absolute;
+    }
+
+    .gieten {
+        top: 400px;
+        right: 125px;
+
+    }
+
+    .glazen {
+        top: 460px;
+        right: 70px;
+    }
+
+    div.glasinhand {
+        top: 460px;
+        right: 230px;
+    }
+
+    /*MAIN*/
+
+    div.main {
+        margin-top: 550px;
+    }
+
+    .iframe-container {
+        padding-bottom: 20%;
+    }
+
+    .iframe-container iframe {
+
+        width: 50%;
+
+    }
+
+    .iframe-container1 {
+        padding-bottom: 30%;
+    }
+
+    .iframe-container1 iframe {
+
+        width: 50%;
+
+    }
+
+    .video-tekst {
+        font-size: 2.1875rem;
+    }
+
+    .video-sub {
+        font-size: 1.25rem;
+    }
+
+    .typo-tekst {
+        font-size: 2.1875rem
+    }
+
+    .typo-sub {
+        font-size: 1.25rem
+    }
+
+    .animate1 {
+        left: 350px;
+    }
+
+
+
+    /*Carousel*/
+
+    .carousel-inner {
+        left: 190px;
+    }
+
+    .carousel-control-prev {
+        left: 150px;
+
+    }
+
+    .carousel-control-next {
+        right: 160px;
+    }
+
+}
+
+
+
+/* =========================================
+Small Devices (Portrait Tablets & Small Desktops)
+============================================ */
+
+@media (max-width: 850px) {
+
+    /*Navbar*/
+
+    .navbar-dark .navbar-brand {
+        width: 245px;
+        height: 129.06px;
+    }
+
+    /*Slogan & Images*/
+    .slogan {
+        height: 550px;
+    }
+
+    p {
+        font-size: 2.8125rem;
+        padding-top: 130px;
+
+    }
+
+    .gieten {
+        top: 410px;
+        right: 110px;
+
+    }
+
+    .glazen {
+        top: 470px;
+        right: 60px;
+    }
+
+    div.glasinhand {
+        top: 475px;
+        right: 230px;
+    }
+
+    /*MAIN*/
+
+    div.main {
+        margin-top: 550px;
+    }
+
+    /*Video & Typo*/
+
+    .video-tekst {
+        font-size: 1.875rem;
+    }
+
+    .video-sub {
+        font-size: 1.25rem;
+    }
+
+    .typo-sub {
+        font-size: 1.25rem;
+    }
+
+    .typo-tekst {
+        font-size: 1.875rem;
+    }
+
+    .animate1 {
+        left: 320px;
+    }
+
+    /*Carousel*/
+
+    .carousel-inner {
+        left: 150px;
+    }
+
+    .carousel-control-prev {
+        left: 130px;
+
+    }
+
+    .carousel-control-next {
+        right: 140px;
+    }
+
+    /* =========================================
+Extra Small Devices (Landscape Phones & Portrait Tablets) 
+============================================ */
+
+    @media (max-width: 769px) {
+        /*Navbar*/
+
+
+        .navbar-dark .navbar-brand {
+            width: 245px;
+            height: 129.06px;
+        }
+
+        /*Slogan & Images*/
+        .slogan {
+            height: 550px;
+        }
+
+        p {
+            font-size: 2.5rem;
+            padding-top: 0px;
+            margin-left: 260px;
+            text-align: center;
+
+
+        }
+
+        .gieten {
+            margin-top: 0px;
+            right: 245px;
+            width: 30%;
+
+        }
+
+        .glazen {
+            margin-top: 0px;
+            right: 195px;
+            width: 30%;
+        }
+
+        div.glasinhand {
+            margin-top: 0px;
+            right: 365px;
+            width: 25%;
+        }
+
+        /*MAIN*/
+
+        div.main {
+            margin-top: 550px;
+        }
+
+        /*Video & Typo*/
+
+        .video-tekst {
+            font-size: 1.875rem;
+            margin-left: 35px;
+        }
+
+        .video-sub {
+            font-size: 1.25rem;
+            margin-left: 35px;
+        }
+
+        .typo-sub {
+            font-size: 1.25rem;
+            margin-right: 35px;
+        }
+
+        .typo-tekst {
+            font-size: 1.875rem;
+            margin-right: 35px;
+        }
+
+        .animate1 {
+            left: 280px;
+        }
+
+        .iframe-container iframe {
+
+            margin-right: 35px;
+        }
+
+        .iframe-container1 iframe {
+
+            margin-left: 35px;
+            padding-bottom: 10%;
+        }
+
+        /*Carousel*/
+
+        .carousel-inner {
+            left: 150px;
+        }
+
+        .carousel-control-prev {
+            left: 130px;
+
+        }
+
+        .carousel-control-next {
+            right: 140px;
+        }
+
+        .container {
+            margin-top: 400px;
+        }
+
+    }
+
+    /* =========================================
+               MAX WIDTH 737px
+============================================ */
+    @media (max-width: 737px) {
+
+        .navbar-dark .navbar-brand {
+            width: 200px;
+            height: 100px;
+        }
+
+        P {
+            font-size: 2.1875rem;
+            margin-left: 60px;
+            text-align: left;
+            padding-top: 30px;
+        }
+
+        .gieten {
+            top: 200px;
+            right: 130px;
+            width: 20%;
+
+        }
+
+        .glazen {
+            top: 230px;
+            right: 80px;
+            width: 20%;
+        }
+
+        div.glasinhand {
+            top: 230px;
+            right: 175px;
+            width: 20%;
+        }
+
+        .slogan {
+            height: 300px;
+        }
+
+        div.main {
+            margin-top: 300px;
+        }
+
+        .carousel-inner {
+            left: 135px;
+        }
+
+        .carousel-control-prev {
+            left: 130px;
+
+        }
+
+        .carousel-control-next {
+            right: 135px;
+        }
+
+        .container {
+            margin-top: 400px;
+        }
+
+        .titel {
+            font-size: 1.5625rem;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        .h2,
+        h2 {
+            font-size: 1.5625rem;
+        }
+
+        .bodem {
+            font-size: 0.9375rem;
+            margin-top: 20px;
+        }
+
+        .video-tekst {
+            font-size: 1.5625rem;
+            margin-left: 35px;
+        }
+
+        .video-sub {
+            font-size: 1rem;
+            margin-left: 35px;
+        }
+
+        .typo-sub {
+            font-size: 1rem;
+            margin-right: 35px;
+        }
+
+        .typo-tekst {
+            font-size: 1.5625rem;
+            margin-right: 35px;
+        }
+
+        .animate1 {
+            width: 25%;
+            left: 245px;
+        }
+
+
+
+
+
+    }
+
+    /* =========================================
+               MAX WIDTH 668px
+============================================ */
+
+    @media (max-width: 668px) {
+
+        .navbar-dark .navbar-brand {
+            width: 170px;
+            height: 90px;
+        }
+
+        P {
+            font-size: 2.1875rem;
+            margin-left: 60px;
+            text-align: left;
+            padding-top: 1px;
+        }
+
+        .gieten {
+            top: 160px;
+            right: 110px;
+            width: 20%;
+
+        }
+
+        .glazen {
+            top: 180px;
+            right: 65px;
+            width: 20%;
+        }
+
+        div.glasinhand {
+            top: 190px;
+            right: 155px;
+            width: 20%;
+        }
+
+        .slogan {
+            height: 300px;
+        }
+
+        div.main {
+            margin-top: 300px;
+        }
+
+    }
+
+    /* =========================================
+               MAX WIDTH 600px
+============================================ */
+
+    @media (max-width: 600px) {
+
+        /*NAVBAR*/
+        .navbar-dark .navbar-brand {
+            width: 200px;
+            height: 100px;
+        }
+
+        /*Slogan & Images*/
+
+        p {
+            margin-left: 130px;
+        }
+
+        .gieten {
+            top: 440px;
+            right: 180px;
+            width: 30%;
+
+        }
+
+        .glazen {
+            top: 480px;
+            right: 130px;
+            width: 30%;
+        }
+
+        div.glasinhand {
+            top: 490px;
+            right: 245px;
+            width: 25%;
+        }
+
+        /*CAROUSEL*/
+
+        .carousel-inner {
+            left: 100px;
+        }
+
+        .carousel-control-prev {
+            left: 130px;
+
+        }
+
+        .carousel-control-next {
+            right: 140px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+        }
+
+        /* =========================================
+               MAX WIDTH 415px
+============================================ */
+        @media (max-width: 415px) {
+
+            .slogan {
+                height: 700px;
+            }
+
+            div.main {
+                margin-top: 700px;
+            }
+
+            /*Carousel*/
+
+            .carousel-inner {
+                left: 85px;
+            }
+
+            .carousel-control-prev {
+                left: 80px;
+
+            }
+
+            .carousel-control-next {
+                right: 80px;
+            }
+
+            .container {
+                margin-top: 400px;
+            }
+
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                width: 1.7rem;
+                height: 1.7rem;
+            }
+
+            .bodem {
+                font-size: 0.9375rem;
+            }
+
+            .titel {
+                font-size: 1.25rem;
+            }
+
+            .video-tekst {
+                font-size: 1.25rem;
+                margin-left: 35px;
+
+            }
+
+            .video-sub {
+                font-size: 0.9375rem;
+                margin-left: 35px;
+            }
+
+            .typo-sub {
+                font-size: 0.9375rem;
+                margin-right: 35px;
+            }
+
+            .typo-tekst {
+                font-size: 1.25rem;
+                margin-right: 35px;
+            }
+
+            .animate1 {
+                left: 280px;
+            }
+
+            .iframe-container iframe {
+                width: 350px;
+                height: 200px;
+                float: right;
+            }
+
+          .iframe-container1{
+                margin-left: 0px;
+              }
+
+              .iframe-container1 iframe{
+                margin-left: 35px;
+                margin-right: 0;
+                width: 350px;
+                height: 200px;
+              }
+
+            .animate1 {
+                width: 40%;
+                left: 220px;
+            }
+
+            div.container {
+                margin-top: 320px;
+            }
+
+            P {
+                font-size: 2.6875rem;
+                text-align: center;
+                margin-left: 60px;
+                margin-top: 70px;
+            }
+
+            .gieten {
+                top: 475px;
+                right: 105px;
+                width: 50%;
+
+            }
+
+            .glazen {
+                top: 500px;
+                right: 60px;
+                width: 45%;
+            }
+
+            div.glasinhand {
+                top: 500px;
+                right: 165px;
+                width: 45%;
+            }
+
+            .navbar-dark .navbar-brand {
+                width: 150px;
+                height: 80px;
+            }
+
+        }
+
+        /* =========================================
+               MAX WIDTH 380px
+============================================ */
+        @media (max-width: 380px) {
+
+            P {
+                margin-left: 68px;
+                font-size: 2.1875rem;
+                margin-top: 70px;
+            }
+
+            .gieten {
+                top: 410px;
+                right: 115px;
+                width: 40%;
+
+            }
+
+            .glazen {
+                top: 450px;
+                right: 65px;
+                width: 40%;
+            }
+
+            div.glasinhand {
+                top: 450px;
+                right: 175px;
+                width: 40%;
+            }
+
+            div.main {
+                margin-top: 550px;
+            }
+
+            .slogan {
+                height: 550px
+            }
+
+
+            .carousel-inner {
+                left: 75px;
+            }
+
+            .carousel-control-prev {
+                left: 65px;
+
+            }
+
+            .carousel-control-next {
+                right: 70px;
+            }
+
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+
+            h2,
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            .bodem {
+                font-size: 0.9375rem;
+            }
+
+            .iframe-container iframe {
+                width: 300px;
+                height: 200px;
+                float: right;
+            }
+
+            .iframe-container1 iframe {
+                width: 300px;
+                height: 200px;
+                padding-bottom: 5%;
+
+            }
+
+/* =========================================
+               MAX WIDTH 376px
+============================================ */
+            @media (max-width: 376px) {
+                div.main {
+                    margin-top: 650px;
+                }
+
+                .slogan {
+                    height: 650px
+                }
+
+                .gieten {
+                    top: 410px;
+                    right: 95px;
+                    width: 50%;
+
+                }
+
+                .glazen {
+                    top: 430px;
+                    right: 50px;
+                    width: 45%;
+                }
+
+                div.glasinhand {
+                    top: 430px;
+                    right: 160px;
+                    width: 45%;
+                }
+
+              .iframe-container1{
+                margin-left: 0px;
+              }
+
+              .iframe-container1 iframe{
+                margin-left: 35px;
+                margin-right: 0;
+              }
+
+              p{
+                margin-left: 65px;
+              }
+
+
+
+
+            }

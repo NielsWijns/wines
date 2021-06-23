@@ -1,0 +1,372 @@
+/*
+background color : #F4EFE7
+font-family: georgia;
+font-style: italic;
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================
+                Preloader
+============================================ */
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url("img/preloader/preloader.gif");
+    background-repeat: no-repeat;
+    width: 10.375rem;
+    height: 10.375rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+/* =========================================
+                Navbar
+============================================ */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: georgia;
+    font-style: italic;
+    font-size: 1.125rem;
+    padding: ;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+}
+
+.navbar-dark .navbar-brand {
+    width: 265px;
+    height: 149.06px;
+}
+
+.background {
+    background-color: black;
+}
+
+.navbar-dark .navbar-toggler{
+    color: #7f1712;
+}
+
+
+/* =========================================
+                Slogan & Images
+============================================ */
+
+.slogan {
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+
+
+}
+
+p {
+    color: white;
+    font-family: georgia;
+    font-size: 3.75rem;
+    margin-left: 70px;
+    padding-top: 110px;
+
+}
+
+.gieten {
+    position: fixed;
+    right: 220px;
+    bottom: 200px;
+    width: 25%;
+    top: 200px;
+}
+
+.glazen {
+    position: fixed;
+    right: 120px;
+    bottom: 150px;
+    width: 20%;
+    top: 250px;
+
+}
+
+div.glasinhand {
+    position: fixed;
+    right: 450px;
+    bottom: 250px;
+    width: 20%;
+    top: 270px;
+}
+
+.glazen1 {
+    border-radius: 10%;
+}
+
+.gieten1 {
+    border-radius: 10%;
+}
+
+.glasinhand1 {
+    border-radius: 10%;
+}
+
+/* =========================================
+                about
+============================================ */
+
+.main {
+    background-color: #f1ebe3;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 5;
+    margin-top: 600px;
+}
+
+.bodem {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    font-family: georgia;
+    color: #515151;
+}
+
+.titel {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: georgia;
+    color: #black;
+    text-align: center;
+}
+
+
+
+
+/* =========================================
+                Carousel
+============================================ */
+.w-100 {
+    width: 75% !important;
+}
+
+.carousel-inner {
+    left: 275px;
+    top: 30px;
+    width: 79% !important;
+}
+
+.carousel-control-prev {
+    left: 225px;
+    top: 50px;
+}
+
+.carousel-control-next {
+    right: 220px;
+    top: 50px;
+}
+
+.d-block w-100 {
+    width: 60% !important;
+}
+
+
+/* =========================================
+                 Video
+============================================ */
+.iframe-container1 {
+    position: relative;
+    padding-bottom: 20%;
+    margin-left: 70px;
+    height: 0;
+}
+
+.iframe-container1 iframe {
+    width: 40%;
+    margin-right: 70px;
+}
+
+.video-tekst {
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: georgia;
+    margin-left: 70px;
+    color: black;
+
+}
+
+
+.video-sub {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-family: georgia;
+    font-style: italic;
+    margin-left: 70px;
+    color: #515151;
+
+}
+
+.animate1 {
+    width: 20%;
+    position: absolute;
+    left: 420px;
+}
+
+
+
+
+/* =========================================
+                Typo
+============================================ */
+
+.typo-tekst {
+    display: flex;
+    justify-content: flex-end;
+    font-family: georgia;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+.typo-sub {
+    display: flex;
+    justify-content: flex-end;
+    font-family: georgia;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #515151;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 20%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    float: right;
+    width: 40%;
+    margin-right: 70px;
+}
+
+/* =========================================
+                 Contact
+============================================ */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 2%;
+    padding: 20px;
+    margin-top: 250px;
+    background-image: url('img/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+}
+
+input[type=submit] {
+    background-color: #7f1712;
+}
+
+::placeholder {
+    font-family: georgia;
+    font-style: italic;
+}
+
+label {
+    font-family: georgia;
+
+}
+
+.social-link {
+    margin: 0 20px;
+    transition-duration: 0.6s;
+    float: right;
+}
+
+.social-link:hover {
+    transform: rotateZ(360deg);
+}
+
+.social-link img {
+    width:40px;
+
+}
+
+/* =========================================
+                 Footer
+============================================ */
+
+.copyright {
+    color: #515151;
+    font-family: georgia;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
